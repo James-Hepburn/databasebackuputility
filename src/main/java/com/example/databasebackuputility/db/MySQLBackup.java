@@ -8,7 +8,7 @@ import java.io.IOException;
 
 @RequiredArgsConstructor
 public class MySQLBackup implements DatabaseBackup {
-    private DatabaseConfig.DbConfig config;
+    private final DatabaseConfig.DbConfig config;
 
     @Override
     public File backup (String backupDir) throws IOException, InterruptedException {

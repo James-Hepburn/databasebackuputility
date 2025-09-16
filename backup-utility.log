@@ -1,0 +1,222 @@
+2025-09-16T13:46:18.514-06:00  INFO 6378 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6378 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T13:46:18.518-06:00  INFO 6378 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T13:46:19.401-06:00  WARN 6378 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseConfig' defined in file [/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes/com/example/databasebackuputility/config/DatabaseConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.databasebackuputility.config.DatabaseConfig$DbConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-16T13:46:19.413-06:00  INFO 6378 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T13:46:19.445-06:00 ERROR 6378 --- [databasebackuputility] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+DatabaseConfig is annotated with @ConstructorBinding but it is defined as a regular bean which caused dependency injection to fail.
+
+Action:
+
+Update your configuration so that DatabaseConfig is defined via @ConfigurationPropertiesScan or @EnableConfigurationProperties.
+
+2025-09-16T13:47:11.292-06:00  INFO 6404 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6404 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T13:47:11.295-06:00  INFO 6404 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T13:47:12.163-06:00  WARN 6404 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseConfig' defined in file [/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes/com/example/databasebackuputility/config/DatabaseConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.databasebackuputility.config.DatabaseConfig$DbConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-16T13:47:12.174-06:00  INFO 6404 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T13:47:12.194-06:00 ERROR 6404 --- [databasebackuputility] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+DatabaseConfig is annotated with @ConstructorBinding but it is defined as a regular bean which caused dependency injection to fail.
+
+Action:
+
+Update your configuration so that DatabaseConfig is defined via @ConfigurationPropertiesScan or @EnableConfigurationProperties.
+
+2025-09-16T13:47:45.551-06:00  INFO 6412 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6412 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T13:47:45.554-06:00  INFO 6412 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T13:47:46.378-06:00  WARN 6412 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseConfig' defined in file [/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes/com/example/databasebackuputility/config/DatabaseConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.databasebackuputility.config.DatabaseConfig$DbConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-16T13:47:46.388-06:00  INFO 6412 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T13:47:46.408-06:00 ERROR 6412 --- [databasebackuputility] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+DatabaseConfig is annotated with @ConstructorBinding but it is defined as a regular bean which caused dependency injection to fail.
+
+Action:
+
+Update your configuration so that DatabaseConfig is defined via @ConfigurationPropertiesScan or @EnableConfigurationProperties.
+
+2025-09-16T13:59:04.985-06:00  INFO 6561 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6561 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T13:59:04.990-06:00  INFO 6561 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T13:59:05.828-06:00  WARN 6561 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cloudStorageService' defined in file [/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes/com/example/databasebackuputility/service/CloudStorageService.class]: Failed to instantiate [com.example.databasebackuputility.service.CloudStorageService]: Constructor threw exception
+2025-09-16T13:59:05.840-06:00  INFO 6561 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T13:59:05.868-06:00 ERROR 6561 --- [databasebackuputility] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cloudStorageService' defined in file [/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes/com/example/databasebackuputility/service/CloudStorageService.class]: Failed to instantiate [com.example.databasebackuputility.service.CloudStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.databasebackuputility.DatabasebackuputilityApplication.main(DatabasebackuputilityApplication.java:13) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.databasebackuputility.service.CloudStorageService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "com.example.databasebackuputility.config.DatabaseConfig$CloudConfig.getRegion()" because "this.cloudConfig" is null
+	at com.example.databasebackuputility.service.CloudStorageService.<init>(CloudStorageService.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 22 common frames omitted
+
+2025-09-16T14:01:26.024-06:00  INFO 6585 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6585 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T14:01:26.027-06:00  INFO 6585 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T14:01:26.794-06:00  WARN 6585 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cloudStorageService': Invocation of init method failed
+2025-09-16T14:01:26.807-06:00  INFO 6585 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T14:01:26.825-06:00 ERROR 6585 --- [databasebackuputility] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cloudStorageService': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.databasebackuputility.DatabasebackuputilityApplication.main(DatabasebackuputilityApplication.java:13) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: AWS S3 config is missing!
+	at com.example.databasebackuputility.service.CloudStorageService.init(CloudStorageService.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 19 common frames omitted
+
+2025-09-16T14:03:09.825-06:00  INFO 6609 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6609 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T14:03:09.827-06:00  INFO 6609 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T14:03:11.463-06:00  WARN 6609 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-09-16T14:03:11.473-06:00  INFO 6609 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T14:03:11.493-06:00 ERROR 6609 --- [databasebackuputility] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-09-16T14:04:12.885-06:00  INFO 6623 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6623 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T14:04:12.888-06:00  INFO 6623 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T14:04:14.362-06:00  WARN 6623 --- [databasebackuputility] [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Failed to instantiate [com.mongodb.client.MongoClient]: Factory method 'mongo' threw exception with message: com/mongodb/connection/StreamFactory
+2025-09-16T14:04:14.371-06:00  INFO 6623 --- [databasebackuputility] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16T14:04:14.392-06:00 ERROR 6623 --- [databasebackuputility] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Failed to instantiate [com.mongodb.client.MongoClient]: Factory method 'mongo' threw exception with message: com/mongodb/connection/StreamFactory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.databasebackuputility.DatabasebackuputilityApplication.main(DatabasebackuputilityApplication.java:13) ~[classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.client.MongoClient]: Factory method 'mongo' threw exception with message: com/mongodb/connection/StreamFactory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/mongodb/connection/StreamFactory
+	at com.mongodb.client.MongoClients.create(MongoClients.java:108) ~[mongodb-driver-sync-4.11.1.jar:na]
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactorySupport.createMongoClient(MongoClientFactorySupport.java:50) ~[spring-boot-autoconfigure-3.5.5.jar:3.5.5]
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:60) ~[spring-boot-autoconfigure-3.5.5.jar:3.5.5]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mongodb.connection.StreamFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 29 common frames omitted
+
+2025-09-16T14:04:56.374-06:00  INFO 6638 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6638 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T14:04:56.377-06:00  INFO 6638 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T14:04:57.766-06:00  INFO 6638 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Started DatabasebackuputilityApplication in 2.069 seconds (process running for 2.532)
+2025-09-16T14:05:12.235-06:00  INFO 6643 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Starting DatabasebackuputilityApplication using Java 21.0.8 with PID 6643 (/Users/jameshepburn/Desktop/Java Projects/databasebackuputility/target/classes started by jameshepburn in /Users/jameshepburn/Desktop/Java Projects/databasebackuputility)
+2025-09-16T14:05:12.239-06:00  INFO 6643 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T14:05:13.679-06:00  INFO 6643 --- [databasebackuputility] [main] c.e.d.DatabasebackuputilityApplication   : Started DatabasebackuputilityApplication in 2.108 seconds (process running for 2.656)

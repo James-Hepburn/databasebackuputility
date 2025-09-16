@@ -11,7 +11,7 @@ import java.io.File;
 @RequiredArgsConstructor
 @Service
 public class BackupService {
-    private DatabaseConfig config;
+    private final DatabaseConfig config;
 
     public File performBackup (String dbType, String backupDir, boolean compress) throws Exception {
         DatabaseBackup handler = createBackupHandler (dbType);

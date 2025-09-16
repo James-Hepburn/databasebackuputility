@@ -1,6 +1,7 @@
 package com.example.databasebackuputility.service;
 
 import com.example.databasebackuputility.config.DatabaseConfig;
+import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
@@ -10,18 +11,28 @@ import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.*;
 
 import java.io.File;
-import java.nio.file.Path;
 
 @Service
 public class CloudStorageService {
+    private final DatabaseConfig databaseConfig;
     private DatabaseConfig.CloudConfig cloudConfig;
     private S3Client s3Client;
 
     public CloudStorageService (DatabaseConfig databaseConfig) {
+        this.databaseConfig = databaseConfig;
+    }
+
+    @PostConstruct
+    public void init () {
         this.cloudConfig = databaseConfig.getAwsS3 ();
+
+        if (this.cloudConfig == null) {
+            throw new IllegalStateException ("AWS S3 config is missing!");
+        }
+
         this.s3Client = S3Client.builder ()
                 .region (Region.of (this.cloudConfig.getRegion ()))
-                .credentialsProvider (StaticCredentialsProvider.create (AwsBasicCredentials.create (cloudConfig.getAccessKey (), cloudConfig.getSecretKey ())))
+                .credentialsProvider (StaticCredentialsProvider.create (AwsBasicCredentials.create (this.cloudConfig.getAccessKey (), this.cloudConfig.getSecretKey ())))
                 .build ();
     }
 

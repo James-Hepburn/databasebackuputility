@@ -9,7 +9,7 @@ import java.nio.file.Files;
 
 @RequiredArgsConstructor
 public class SQLiteBackup implements DatabaseBackup{
-    private DatabaseConfig.SqliteConfig config;
+    private final DatabaseConfig.SqliteConfig config;
 
     @Override
     public File backup (String backupDir) throws IOException {

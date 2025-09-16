@@ -7,7 +7,7 @@ import java.io.File;
 
 @RequiredArgsConstructor
 public class PostgreSQLBackup implements DatabaseBackup {
-    private DatabaseConfig.DbConfig config;
+    private final DatabaseConfig.DbConfig config;
 
     @Override
     public File backup (String backupDir) throws Exception {

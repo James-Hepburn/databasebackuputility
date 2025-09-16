@@ -11,7 +11,7 @@ import java.io.File;
 @RequiredArgsConstructor
 @Service
 public class RestoreService {
-    private DatabaseConfig config;
+    private final DatabaseConfig config;
 
     public void performRestore (String dbType, File backupSource) throws Exception {
         DatabaseBackup handler = createRestoreHandler (dbType);
